@@ -43,6 +43,14 @@ A dynamic game built with **Jetpack Compose** that demonstrates asynchronous sta
     * **State-Driven Win Logic:** Features a centralized validation system that evaluates game results only after all asynchronous reel jobs have been successfully cancelled.
 * **Tech Stack:** Kotlin, Jetpack Compose, Coroutines (Jobs/Scopes), ViewModel.---
 
+### [Graduation Announcement](https://github.com/LeoFlores0/compose-learning-journey/tree/main/Graduation-Announcement)
+An interactive event announcement application demonstrating UI state toggling and resource integration in Jetpack Compose.
+* **Key Features:**
+    * **Interactive State:** Uses `Switch` components to dynamically update the application's theme and RSVP status.
+    * **Resource Management:** Integrates vector icons and image resources with custom alpha blending.
+    * **Layout Architecture:** Employs `Arrangement.SpaceEvenly` and `Alignment` properties to create a balanced, centered UI.
+* **Tech Stack:** Kotlin, Jetpack Compose, Material 3.
+
 ## Technical Skills Demonstrated
 
 * **Architecture & State Management:**
