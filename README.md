@@ -36,5 +36,9 @@ A visual sequence application that demonstrates asynchronous UI updates and stat
 * **Tech Stack:** Kotlin, Jetpack Compose, Coroutines (delay).
 
 ### [Slot Machine](https://github.com/LeoFlores0/compose-learning-journey/tree/main/Slot-Machine)
-A game built using **Jetpack Compose** that demonstrates UI state management and animations.
-* **Key Features:** Randomized reel logic, state-driven UI updates.
+A dynamic game built with **Jetpack Compose** that demonstrates asynchronous state management and precise coroutine control.
+* **Key Features:**
+    * **Coroutine Lifecycle Management:** Utilizes `Job` tracking and `rememberCoroutineScope` to manage three independent reels, allowing for individual "STOP" functionality.
+    * **Asynchronous Logic:** Implements staggered spin speeds using `delay` and `Dispatchers.Default` to simulate realistic reel movement.
+    * **State-Driven Win Logic:** Features a centralized validation system that evaluates game results only after all asynchronous reel jobs have been successfully cancelled.
+* **Tech Stack:** Kotlin, Jetpack Compose, Coroutines (Jobs/Scopes), ViewModel.
