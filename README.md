@@ -41,4 +41,21 @@ A dynamic game built with **Jetpack Compose** that demonstrates asynchronous sta
     * **Coroutine Lifecycle Management:** Utilizes `Job` tracking and `rememberCoroutineScope` to manage three independent reels, allowing for individual "STOP" functionality.
     * **Asynchronous Logic:** Implements staggered spin speeds using `delay` and `Dispatchers.Default` to simulate realistic reel movement.
     * **State-Driven Win Logic:** Features a centralized validation system that evaluates game results only after all asynchronous reel jobs have been successfully cancelled.
-* **Tech Stack:** Kotlin, Jetpack Compose, Coroutines (Jobs/Scopes), ViewModel.
+* **Tech Stack:** Kotlin, Jetpack Compose, Coroutines (Jobs/Scopes), ViewModel.---
+
+## Technical Skills Demonstrated
+
+* **Architecture & State Management:**
+    * **MVVM Pattern:** Separating business logic from UI using `ViewModel` for cleaner, testable code.
+    * **State Handling:** Proficient in `remember`, `mutableStateOf`, and `mutableIntStateOf` to drive dynamic UI updates.
+* **Jetpack Compose UI:**
+    * **Declarative Layouts:** Building responsive interfaces with `Column`, `Row`, and `Box`.
+    * **Advanced Lists:** Implementing `LazyColumn` and `LazyRow` with `stickyHeader` functionality.
+    * **Adaptive Design:** Using `LocalConfiguration` to handle orientation changes (Portrait vs. Landscape).
+    * **Material 3 Components:** Integration of `Scaffold`, `Button`, `Slider`, `RadioButton`, and `TextField`.
+* **Concurrency & Logic:**
+    * **Kotlin Coroutines:** Managing asynchronous tasks using `LaunchedEffect`, `delay`, and `Dispatchers`.
+    * **Lifecycle Management:** Controlling background tasks through manual `Job` cancellation and `CoroutineScope`.
+* **Tools & Standards:**
+    * **Version Control:** Git/GitHub with strict adherence to **Conventional Commits** standards.
+    * **Build Systems:** Project configuration using **Gradle (KTS)** and Android Studio.
