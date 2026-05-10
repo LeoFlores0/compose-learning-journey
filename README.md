@@ -4,7 +4,7 @@ This repository serves as a portfolio of my Android development projects, focusi
 
 ## Projects
 
-### [Count to Five](https://github.com/LeoFlores0/compose-learning-journey/tree/main/Count-to-Five)
+### [Count to Five](https://github.com/LeoFlores0/compose-learning-journey/tree/main/count-to-five)
 A responsive image gallery application that demonstrates advanced list handling and adaptive layout transitions.
 * **Key Features:**
     * **Adaptive Layouts:** Switches dynamically between a `LazyColumn` for portrait mode and a `LazyRow` for landscape mode.
@@ -12,7 +12,7 @@ A responsive image gallery application that demonstrates advanced list handling 
     * **Orientation Awareness:** Monitors device state via `LocalConfiguration` to provide a seamless user experience during rotation.
 * **Tech Stack:** Kotlin, Jetpack Compose, ViewModel.
 
-### [Slot Machine](https://github.com/LeoFlores0/compose-learning-journey/tree/main/Slot-Machine)
+### [Slot Machine](https://github.com/LeoFlores0/compose-learning-journey/tree/main/slot-machine)
 A dynamic game built with **Jetpack Compose** that demonstrates asynchronous state management and precise coroutine control.
 * **Key Features:**
     * **Coroutine Lifecycle Management:** Utilizes `Job` tracking and `rememberCoroutineScope` to manage three independent reels, allowing for individual "STOP" functionality.
@@ -20,7 +20,7 @@ A dynamic game built with **Jetpack Compose** that demonstrates asynchronous sta
     * **State-Driven Win Logic:** Features a centralized validation system that evaluates game results only after all asynchronous reel jobs have been successfully cancelled.
 * **Tech Stack:** Kotlin, Jetpack Compose, Coroutines (Jobs/Scopes), ViewModel.
 
-### [Car Loan Calculator](https://github.com/LeoFlores0/compose-learning-journey/tree/main/Car-Loan-Calculator)
+### [Car Loan Calculator](https://github.com/LeoFlores0/compose-learning-journey/tree/main/car-loan-calculator)
 A financial utility app that calculates monthly car payments based on user input, interest rates, and loan terms.
 * **Key Features:** * Responsive design with unique layouts for **Portrait** and **Landscape** modes.
     * Real-time interest rate adjustment via a **Slider** component.
@@ -28,7 +28,7 @@ A financial utility app that calculates monthly car payments based on user input
     * Dynamic payment calculation using the standard amortization formula.
 * **Tech Stack:** Kotlin, Jetpack Compose, ViewModel, Material3.
 
-### [Whack-a-Mole](https://github.com/LeoFlores0/compose-learning-journey/tree/main/Whack-a-Mole)
+### [Whack-a-Mole](https://github.com/LeoFlores0/compose-learning-journey/tree/main/whack-a-mole)
 An interactive game that tests reaction speed through dynamic state updates and timed event loops.
 * **Key Features:**
     * **Game Logic:** Implements a scoring and "miss" system that tracks user accuracy in real-time.
@@ -36,14 +36,14 @@ An interactive game that tests reaction speed through dynamic state updates and 
     * **Dynamic Modes:** Features a "Random Mode" toggle using a Checkbox to switch between predictable and randomized gameplay patterns.
 * **Tech Stack:** Kotlin, Jetpack Compose, Coroutines.
 
-### [Color Chase](https://github.com/LeoFlores0/compose-learning-journey/tree/main/Color-Chase)
+### [Color Chase](https://github.com/LeoFlores0/compose-learning-journey/tree/main/color-chase)
 A visual sequence application that demonstrates asynchronous UI updates and state-controlled logic.
 * **Key Features:** * **State-Driven Sequences:** Utilizes `LaunchedEffect` and `delay` to manage a high-speed color chasing effect.
     * **Dynamic Patterns:** Supports both a predictable clockwise sequence and a randomized mode.
     * **Interactive Controls:** Toggle functionality for the sequence loop and mode switching via a Checkbox.
 * **Tech Stack:** Kotlin, Jetpack Compose, Coroutines (delay).
 
-### [Graduation Announcement](https://github.com/LeoFlores0/compose-learning-journey/tree/main/Graduation-Announcement)
+### [Graduation Announcement](https://github.com/LeoFlores0/compose-learning-journey/tree/main/graduation-announcement)
 An interactive event announcement application demonstrating UI state toggling and resource integration in Jetpack Compose.
 * **Key Features:**
     * **Interactive State:** Uses `Switch` components to dynamically update the application's theme and RSVP status.
