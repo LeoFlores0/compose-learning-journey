@@ -43,7 +43,7 @@ A visual sequence application that demonstrates asynchronous UI updates and stat
     * **Interactive Controls:** Toggle functionality for the sequence loop and mode switching via a Checkbox.
 * **Tech Stack:** Kotlin, Jetpack Compose, Coroutines (delay).
 
-### [Graduation Announcement](https://github.com/LeoFlores0/compose-learning-journey/tree/main/graduation-announcement)
+### [Graduation Announcement](https://github.com/LeoFlores0/compose-learning-journey/tree/main/graduation-app)
 An interactive event announcement application demonstrating UI state toggling and resource integration in Jetpack Compose.
 * **Key Features:**
     * **Interactive State:** Uses `Switch` components to dynamically update the application's theme and RSVP status.
